@@ -1,0 +1,155 @@
+.background_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}
+
+.logo {
+    height: 6vh;
+    margin-bottom: 20px;
+}
+
+.content_area {
+    background-color: rgba(169, 153, 242, 0.3);
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;    
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.login_con {
+    background-color: rgba(169, 153, 242, 0.3);
+    border-radius: 20px;
+    padding: 25px;
+    width: 500px;
+    height: 360px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_title {
+    font-family: 'K2D';
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.username_con {
+    font-family: 'K2D';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.password_con {
+    font-family: 'K2D';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+
+.input_wrapper {
+    position: relative;
+}
+
+.input_style {
+    border: none;
+    border-bottom: 2px solid #5544a7;
+    outline: none;
+    background: transparent;
+    padding: 8px 0 8px 10px;
+    width: 450px;
+}
+
+.resetP_style {
+    position: absolute;
+    font-size: 15px;
+    right: 10px;
+    color: #6957B9;
+    text-decoration: none;
+}
+
+.othFeatures_style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.rmb_style {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #575757;
+    font-family: 'K2D';
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rmb_chckbox {
+    transform: scale(1.1);
+}
+
+.forgotP_style {
+    font-family: 'K2D';
+    font-size: 15px;
+    color: #575757;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.login_Btn {
+    width: 260px;
+    height: 45px;
+    font-family: 'K2D';
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.mergeTextNSignUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.default_text_style {
+    color: #575757;
+    font-family: 'K2D';
+    font-size: 15px;
+}
+
+.signup_style {
+    color: #5544A7;
+    text-decoration: none;
+    font-family: 'K2D';
+}
+
+p {
+    margin-top: 18px;
+}
